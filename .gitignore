@@ -1,0 +1,16 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+
+# verification outputs: reports are committed, generated artefacts are not
+verify/out/*.html
+verify/out/*.css
+verify/out/*.svg
+verify/out/*.png
+verify/out/fidelity.json
+verify/run.log
+!verify/out/report.md
+!verify/out/report.json
+
+# nothing npm-shaped ships in this repo
+node_modules/

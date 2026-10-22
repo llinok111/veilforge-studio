@@ -1,0 +1,13 @@
+VeilForge studio
+Copyright (c) 2026 llinok111
+
+This project is an original implementation. It does not contain code from any
+third-party library; the only runtime dependencies are browser built-ins
+(Canvas2D, SVG filters, CSS gradients).
+
+Development tools (not shipped to end users):
+  Node.js            — build, tests, verification
+  Playwright         — headless browser automation for verify/ only
+
+Category precedents consulted for feature scoping, no code reused:
+  paper-shaders, Creatica, texture-lab, css-mesh, ShaderGradient, granim.js

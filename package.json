@@ -1,0 +1,19 @@
+{
+  "name": "veilforge-studio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Procedural web background studio — six generators, four export targets, verified fidelity.",
+  "keywords": ["procedural", "background", "canvas", "generative", "noise", "gradient", "css-export", "svg-export"],
+  "scripts": {
+    "build": "node tools/gen-runtime.mjs && node tools/build.mjs",
+    "serve": "node tools/serve.mjs",
+    "test": "node --test \"tests/*.test.mjs\"",
+    "verify": "node verify/verify.mjs",
+    "verify:fidelity": "node verify/fidelity.mjs",
+    "verify:perf": "node verify/perf.mjs",
+    "verify:built": "node verify/built.mjs",
+    "package": "node tools/package.mjs"
+  },
+  "license": "MIT"
+}

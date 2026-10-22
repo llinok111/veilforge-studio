@@ -1,0 +1,721 @@
+{
+  "generatedAt": "2026-10-22T10:33:06.111Z",
+  "chromium": "149.0.7827.55",
+  "viewport": "1200×675",
+  "fidelity": [
+    {
+      "generator": "mesh",
+      "target": "canvas",
+      "bytes": 61987,
+      "declared": "exact",
+      "paintMs": null,
+      "mae": 0,
+      "ssim": 1,
+      "exact": true,
+      "meanDelta": 0,
+      "stdDelta": 0,
+      "refMean": 0.3639,
+      "outMean": 0.3639,
+      "threshold": {
+        "mae": 2,
+        "ssim": 0.99,
+        "meanDelta": 0.02
+      },
+      "verdict": "exact",
+      "pass": true
+    },
+    {
+      "generator": "mesh",
+      "target": "svg",
+      "bytes": 8435,
+      "declared": "medium",
+      "paintMs": 1134,
+      "mae": 25.73,
+      "ssim": 0.6507,
+      "exact": false,
+      "meanDelta": 0.0861,
+      "stdDelta": 0.0569,
+      "refMean": 0.3639,
+      "outMean": 0.2778,
+      "threshold": {
+        "mae": 40,
+        "ssim": 0.55,
+        "meanDelta": 0.1
+      },
+      "verdict": "structural",
+      "pass": true
+    },
+    {
+      "generator": "mesh",
+      "target": "css",
+      "bytes": 3930,
+      "declared": "medium",
+      "paintMs": 951,
+      "mae": 15.25,
+      "ssim": 0.6714,
+      "exact": false,
+      "meanDelta": 0.0024,
+      "stdDelta": 0.0358,
+      "refMean": 0.3639,
+      "outMean": 0.3615,
+      "threshold": {
+        "mae": 40,
+        "ssim": 0.5,
+        "meanDelta": 0.1
+      },
+      "verdict": "structural",
+      "pass": true
+    },
+    {
+      "generator": "noise",
+      "target": "canvas",
+      "bytes": 61989,
+      "declared": "exact",
+      "paintMs": null,
+      "mae": 0,
+      "ssim": 1,
+      "exact": true,
+      "meanDelta": 0,
+      "stdDelta": 0,
+      "refMean": 0.4058,
+      "outMean": 0.4058,
+      "threshold": {
+        "mae": 2,
+        "ssim": 0.99,
+        "meanDelta": 0.02
+      },
+      "verdict": "exact",
+      "pass": true
+    },
+    {
+      "generator": "noise",
+      "target": "svg",
+      "bytes": 3027,
+      "declared": "medium",
+      "paintMs": 1167,
+      "mae": 39.24,
+      "ssim": 0.4758,
+      "exact": false,
+      "meanDelta": 0.0093,
+      "stdDelta": 0.0701,
+      "refMean": 0.4058,
+      "outMean": 0.3965,
+      "threshold": {
+        "mae": 40,
+        "ssim": 0.55,
+        "meanDelta": 0.1
+      },
+      "verdict": "tonal",
+      "pass": false
+    },
+    {
+      "generator": "noise",
+      "target": "css",
+      "bytes": 2814,
+      "declared": "medium",
+      "paintMs": 1140,
+      "mae": 31.98,
+      "ssim": 0.5049,
+      "exact": false,
+      "meanDelta": 0.0034,
+      "stdDelta": 0.0142,
+      "refMean": 0.4058,
+      "outMean": 0.4024,
+      "threshold": {
+        "mae": 40,
+        "ssim": 0.5,
+        "meanDelta": 0.1
+      },
+      "verdict": "structural",
+      "pass": true
+    },
+    {
+      "generator": "blobs",
+      "target": "canvas",
+      "bytes": 61989,
+      "declared": "exact",
+      "paintMs": null,
+      "mae": 0,
+      "ssim": 1,
+      "exact": true,
+      "meanDelta": 0,
+      "stdDelta": 0,
+      "refMean": 0.1268,
+      "outMean": 0.1268,
+      "threshold": {
+        "mae": 2,
+        "ssim": 0.99,
+        "meanDelta": 0.02
+      },
+      "verdict": "exact",
+      "pass": true
+    },
+    {
+      "generator": "blobs",
+      "target": "svg",
+      "bytes": 6834,
+      "declared": "high",
+      "paintMs": 926,
+      "mae": 15.83,
+      "ssim": 0.7563,
+      "exact": false,
+      "meanDelta": 0.019,
+      "stdDelta": 0.0332,
+      "refMean": 0.1268,
+      "outMean": 0.1458,
+      "threshold": {
+        "mae": 40,
+        "ssim": 0.55,
+        "meanDelta": 0.1
+      },
+      "verdict": "structural",
+      "pass": true
+    },
+    {
+      "generator": "blobs",
+      "target": "css",
+      "bytes": 4097,
+      "declared": "high",
+      "paintMs": 782,
+      "mae": 14.32,
+      "ssim": 0.7925,
+      "exact": false,
+      "meanDelta": 0.0128,
+      "stdDelta": 0.0385,
+      "refMean": 0.1268,
+      "outMean": 0.114,
+      "threshold": {
+        "mae": 40,
+        "ssim": 0.5,
+        "meanDelta": 0.1
+      },
+      "verdict": "structural",
+      "pass": true
+    },
+    {
+      "generator": "flow",
+      "target": "canvas",
+      "bytes": 61987,
+      "declared": "exact",
+      "paintMs": null,
+      "mae": 0,
+      "ssim": 1,
+      "exact": true,
+      "meanDelta": 0,
+      "stdDelta": 0,
+      "refMean": 0.3402,
+      "outMean": 0.3402,
+      "threshold": {
+        "mae": 2,
+        "ssim": 0.99,
+        "meanDelta": 0.02
+      },
+      "verdict": "exact",
+      "pass": true
+    },
+    {
+      "generator": "flow",
+      "target": "svg",
+      "bytes": 2463,
+      "declared": "low",
+      "paintMs": 967,
+      "mae": 64.89,
+      "ssim": 0.2669,
+      "exact": false,
+      "meanDelta": 0.0332,
+      "stdDelta": 0.0179,
+      "refMean": 0.3402,
+      "outMean": 0.3734,
+      "threshold": {
+        "mae": 40,
+        "ssim": 0.55,
+        "meanDelta": 0.1
+      },
+      "verdict": "tonal",
+      "pass": false
+    },
+    {
+      "generator": "flow",
+      "target": "css",
+      "bytes": 1958,
+      "declared": "low",
+      "paintMs": 936,
+      "mae": 57.27,
+      "ssim": 0.296,
+      "exact": false,
+      "meanDelta": 0.002,
+      "stdDelta": 0.0042,
+      "refMean": 0.3402,
+      "outMean": 0.3422,
+      "threshold": {
+        "mae": 40,
+        "ssim": 0.5,
+        "meanDelta": 0.1
+      },
+      "verdict": "tonal",
+      "pass": false
+    },
+    {
+      "generator": "particles",
+      "target": "canvas",
+      "bytes": 61997,
+      "declared": "exact",
+      "paintMs": null,
+      "mae": 0,
+      "ssim": 1,
+      "exact": true,
+      "meanDelta": 0,
+      "stdDelta": 0,
+      "refMean": 0.0989,
+      "outMean": 0.0989,
+      "threshold": {
+        "mae": 2,
+        "ssim": 0.99,
+        "meanDelta": 0.02
+      },
+      "verdict": "exact",
+      "pass": true
+    },
+    {
+      "generator": "particles",
+      "target": "svg",
+      "bytes": 78343,
+      "declared": "high",
+      "paintMs": 878,
+      "mae": 9.29,
+      "ssim": 0.8309,
+      "exact": false,
+      "meanDelta": 0.0215,
+      "stdDelta": 0.0284,
+      "refMean": 0.0989,
+      "outMean": 0.0774,
+      "threshold": {
+        "mae": 40,
+        "ssim": 0.55,
+        "meanDelta": 0.1
+      },
+      "verdict": "structural",
+      "pass": true
+    },
+    {
+      "generator": "particles",
+      "target": "css",
+      "bytes": 6648,
+      "declared": "high",
+      "paintMs": 852,
+      "mae": 8.98,
+      "ssim": 0.833,
+      "exact": false,
+      "meanDelta": 0.0071,
+      "stdDelta": 0.0305,
+      "refMean": 0.0989,
+      "outMean": 0.0918,
+      "threshold": {
+        "mae": 40,
+        "ssim": 0.5,
+        "meanDelta": 0.1
+      },
+      "verdict": "structural",
+      "pass": true
+    },
+    {
+      "generator": "texture",
+      "target": "canvas",
+      "bytes": 61993,
+      "declared": "exact",
+      "paintMs": null,
+      "mae": 0,
+      "ssim": 1,
+      "exact": true,
+      "meanDelta": 0,
+      "stdDelta": 0,
+      "refMean": 0.322,
+      "outMean": 0.322,
+      "threshold": {
+        "mae": 2,
+        "ssim": 0.99,
+        "meanDelta": 0.02
+      },
+      "verdict": "exact",
+      "pass": true
+    },
+    {
+      "generator": "texture",
+      "target": "svg",
+      "bytes": 2833,
+      "declared": "low",
+      "paintMs": 993,
+      "mae": 44.25,
+      "ssim": 0.2627,
+      "exact": false,
+      "meanDelta": 0.0156,
+      "stdDelta": 0.0931,
+      "refMean": 0.322,
+      "outMean": 0.3064,
+      "threshold": {
+        "mae": 40,
+        "ssim": 0.55,
+        "meanDelta": 0.1
+      },
+      "verdict": "tonal",
+      "pass": false
+    },
+    {
+      "generator": "texture",
+      "target": "css",
+      "bytes": 2879,
+      "declared": "low",
+      "paintMs": 915,
+      "mae": 44.88,
+      "ssim": 0.2715,
+      "exact": false,
+      "meanDelta": 0.0066,
+      "stdDelta": 0.0963,
+      "refMean": 0.322,
+      "outMean": 0.3286,
+      "threshold": {
+        "mae": 40,
+        "ssim": 0.5,
+        "meanDelta": 0.1
+      },
+      "verdict": "tonal",
+      "pass": false
+    }
+  ],
+  "determinism": [
+    {
+      "generator": "mesh",
+      "sameSeedIdentical": true,
+      "differentSeedDiffers": true,
+      "hash": "986e0ab0",
+      "seedBHash": "95b807ae",
+      "maeAcrossSeeds": 19.87
+    },
+    {
+      "generator": "particles",
+      "sameSeedIdentical": true,
+      "differentSeedDiffers": true,
+      "hash": "1ce06ae0",
+      "seedBHash": "ad23f975",
+      "maeAcrossSeeds": 11.73
+    },
+    {
+      "generator": "noise",
+      "sameSeedIdentical": true,
+      "differentSeedDiffers": true,
+      "hash": "324823b5",
+      "seedBHash": "a561d59d",
+      "maeAcrossSeeds": 27.82
+    }
+  ],
+  "validity": [
+    {
+      "generator": "mesh",
+      "svgOk": true,
+      "nodes": 117,
+      "cssRules": 3,
+      "jsonRoundTrip": true
+    },
+    {
+      "generator": "noise",
+      "svgOk": true,
+      "nodes": 34,
+      "cssRules": 3,
+      "jsonRoundTrip": true
+    },
+    {
+      "generator": "blobs",
+      "svgOk": true,
+      "nodes": 111,
+      "cssRules": 3,
+      "jsonRoundTrip": true
+    },
+    {
+      "generator": "flow",
+      "svgOk": true,
+      "nodes": 26,
+      "cssRules": 3,
+      "jsonRoundTrip": true
+    },
+    {
+      "generator": "particles",
+      "svgOk": true,
+      "nodes": 1086,
+      "cssRules": 4,
+      "jsonRoundTrip": true
+    },
+    {
+      "generator": "texture",
+      "svgOk": true,
+      "nodes": 27,
+      "cssRules": 3,
+      "jsonRoundTrip": true
+    }
+  ],
+  "performance": [
+    {
+      "generator": "mesh",
+      "quality": "high",
+      "viewport": "1920×1080",
+      "baselineMs": 6.4,
+      "netMs": 32.6,
+      "coldMs": 40.4,
+      "p50": 39,
+      "p95": 48.1,
+      "max": 48.7,
+      "internal": "1536×864",
+      "heapMB": 9.5
+    },
+    {
+      "generator": "mesh",
+      "quality": "ultra",
+      "viewport": "1920×1080",
+      "baselineMs": 6.4,
+      "netMs": 45.6,
+      "coldMs": 59.6,
+      "p50": 52,
+      "p95": 58,
+      "max": 58.7,
+      "internal": "1920×1080",
+      "heapMB": 9.5
+    },
+    {
+      "generator": "noise",
+      "quality": "high",
+      "viewport": "1920×1080",
+      "baselineMs": 6.4,
+      "netMs": 28.9,
+      "coldMs": 38.2,
+      "p50": 35.3,
+      "p95": 41.1,
+      "max": 43.7,
+      "internal": "1536×864",
+      "heapMB": 9.5
+    },
+    {
+      "generator": "noise",
+      "quality": "ultra",
+      "viewport": "1920×1080",
+      "baselineMs": 6.4,
+      "netMs": 42.2,
+      "coldMs": 55,
+      "p50": 48.6,
+      "p95": 53.5,
+      "max": 61.6,
+      "internal": "1920×1080",
+      "heapMB": 9.5
+    },
+    {
+      "generator": "blobs",
+      "quality": "high",
+      "viewport": "1920×1080",
+      "baselineMs": 6.4,
+      "netMs": 20.9,
+      "coldMs": 27.8,
+      "p50": 27.3,
+      "p95": 32.5,
+      "max": 33.7,
+      "internal": "1536×864",
+      "heapMB": 9.5
+    },
+    {
+      "generator": "blobs",
+      "quality": "ultra",
+      "viewport": "1920×1080",
+      "baselineMs": 6.4,
+      "netMs": 27.1,
+      "coldMs": 41.5,
+      "p50": 33.5,
+      "p95": 36.3,
+      "max": 39,
+      "internal": "1920×1080",
+      "heapMB": 9.5
+    },
+    {
+      "generator": "flow",
+      "quality": "high",
+      "viewport": "1920×1080",
+      "baselineMs": 6.4,
+      "netMs": 28.6,
+      "coldMs": 44.4,
+      "p50": 35,
+      "p95": 40,
+      "max": 42.2,
+      "internal": "1536×864",
+      "heapMB": 9.5
+    },
+    {
+      "generator": "flow",
+      "quality": "ultra",
+      "viewport": "1920×1080",
+      "baselineMs": 6.4,
+      "netMs": 44.3,
+      "coldMs": 68.8,
+      "p50": 50.7,
+      "p95": 63.4,
+      "max": 108,
+      "internal": "1920×1080",
+      "heapMB": 9.5
+    },
+    {
+      "generator": "particles",
+      "quality": "high",
+      "viewport": "1920×1080",
+      "baselineMs": 6.4,
+      "netMs": 23.2,
+      "coldMs": 40.3,
+      "p50": 29.6,
+      "p95": 34.9,
+      "max": 36.6,
+      "internal": "1536×864",
+      "heapMB": 9.5
+    },
+    {
+      "generator": "particles",
+      "quality": "ultra",
+      "viewport": "1920×1080",
+      "baselineMs": 6.4,
+      "netMs": 30.3,
+      "coldMs": 48.6,
+      "p50": 36.7,
+      "p95": 42.1,
+      "max": 45.4,
+      "internal": "1920×1080",
+      "heapMB": 9.5
+    },
+    {
+      "generator": "texture",
+      "quality": "high",
+      "viewport": "1920×1080",
+      "baselineMs": 6.4,
+      "netMs": 36.1,
+      "coldMs": 43.7,
+      "p50": 42.5,
+      "p95": 46.4,
+      "max": 50.2,
+      "internal": "1536×864",
+      "heapMB": 9.5
+    },
+    {
+      "generator": "texture",
+      "quality": "ultra",
+      "viewport": "1920×1080",
+      "baselineMs": 6.4,
+      "netMs": 57.9,
+      "coldMs": 68.2,
+      "p50": 64.3,
+      "p95": 72,
+      "max": 77,
+      "internal": "1920×1080",
+      "heapMB": 9.5
+    }
+  ],
+  "resources": [
+    {
+      "item": "runtime (Canvas export)",
+      "bytes": 60185
+    },
+    {
+      "item": "css export (6 generators, all files)",
+      "bytes": 41075
+    },
+    {
+      "item": "svg export (6 generators, all files)",
+      "bytes": 200266
+    },
+    {
+      "item": "canvas export (6 generators, all files)",
+      "bytes": 735138
+    },
+    {
+      "item": "json export (6 generators, all files)",
+      "bytes": 2422
+    }
+  ],
+  "compatibility": {
+    "Canvas2D": true,
+    "OffscreenCanvas": true,
+    "imageSmoothingQuality": true,
+    "ctx.createPattern().setTransform": true,
+    "mix-blend-mode": true,
+    "background-blend-mode": true,
+    "radial-gradient %": true,
+    "box-shadow inset": true,
+    "aspect-ratio": true,
+    "DOMMatrix": true,
+    "SVG feTurbulence": true,
+    "SVG feDisplacementMap": true,
+    "SMIL (SVGAnimateElement)": true,
+    "matchMedia reduced-motion": true
+  },
+  "notes": [],
+  "baselineMs": 6.4,
+  "ablation": {
+    "both": 27.4,
+    "noGrain": 28.5,
+    "noVignette": 27.6,
+    "sceneOnly": 2.7
+  },
+  "cpu": [
+    {
+      "generator": "mesh",
+      "windowSeconds": 5,
+      "frames": 67,
+      "effectiveFps": 13.4,
+      "taskSeconds": 5.17,
+      "scriptSeconds": 4.46
+    },
+    {
+      "generator": "noise",
+      "windowSeconds": 5,
+      "frames": 86,
+      "effectiveFps": 17.2,
+      "taskSeconds": 5.05,
+      "scriptSeconds": 4.27
+    },
+    {
+      "generator": "blobs",
+      "windowSeconds": 5,
+      "frames": 105,
+      "effectiveFps": 21,
+      "taskSeconds": 5.06,
+      "scriptSeconds": 4.1
+    },
+    {
+      "generator": "flow",
+      "windowSeconds": 5,
+      "frames": 80,
+      "effectiveFps": 16,
+      "taskSeconds": 5.06,
+      "scriptSeconds": 4.3
+    },
+    {
+      "generator": "particles",
+      "windowSeconds": 5,
+      "frames": 107,
+      "effectiveFps": 21.4,
+      "taskSeconds": 5.11,
+      "scriptSeconds": 4.14
+    },
+    {
+      "generator": "texture",
+      "windowSeconds": 5,
+      "frames": 79,
+      "effectiveFps": 15.8,
+      "taskSeconds": 5.1,
+      "scriptSeconds": 4.37
+    }
+  ],
+  "summary": {
+    "exact": 6,
+    "structural": 7,
+    "tonal": 5,
+    "divergent": 0,
+    "fidelityPass": 13,
+    "fidelityTotal": 18,
+    "determinismPass": 3,
+    "determinismTotal": 3,
+    "validityPass": 1,
+    "validityTotal": 6
+  }
+}
